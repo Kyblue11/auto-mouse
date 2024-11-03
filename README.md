@@ -1,6 +1,6 @@
 # Automated Browser Script
 
-This project contains a Python script that automates the process of opening Microsoft Edge, navigating to YouTube, and performing a search.
+This project contains a Python script that automates the process of opening Microsoft Edge, navigating to YouTube, and performing a search.</br>
 Author: Aaron
 
 ## Prerequisites
