@@ -1,13 +1,14 @@
 # Automated Browser Script
 
 This project contains a Python script that automates the process of opening Microsoft Edge, navigating to YouTube, and performing a search.</br>
-Author: Aaron
+
+Author: **Aaron**
 
 ## Prerequisites
 
 - Python 3.x
 - `pyautogui` library
-- Microsoft Edge browser
+- Microsoft Edge browser, or other relevant browser `.png`s
 - Screenshots of the Microsoft Edge icon, YouTube search bar, and YouTube search icon saved in the same directory as `main.py`
 
 ## Installation
