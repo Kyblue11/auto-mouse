@@ -4,7 +4,6 @@ import time
 print("Starting the automated browser script...")
 time.sleep(3)
 
-# Step 1: Locate the Microsoft Edge shortcut on the desktop and click on it
 try:
     edge_icon_location = pyautogui.locateOnScreen('./edge_icon.png', confidence=0.8)
     if edge_icon_location:
@@ -17,12 +16,11 @@ except pyautogui.ImageNotFoundException:
     print("Microsoft Edge shortcut not found on the desktop.")
 time.sleep(3) 
 
-# Step 2: Navigate to YouTube
 pyautogui.typewrite('https://www.youtube.com')
 pyautogui.press('enter')
 time.sleep(5)  # Wait for YouTube to load
 
-# Step 3: Locate the YouTube search bar or search icon, type "hello", and hit Enter
+# TODO: check confidence level
 try:
     youtube_search_bar_location = pyautogui.locateOnScreen('./youtube_search_bar.png', confidence=0.8)
     if youtube_search_bar_location:
@@ -43,6 +41,6 @@ try:
             print("YouTube search icon not found on the page.")
 except pyautogui.ImageNotFoundException:
     print("YouTube search bar or icon not found on the page.")
-time.sleep(5)  # Wait for search results to load
+time.sleep(5)
 
 print("Script completed.")
